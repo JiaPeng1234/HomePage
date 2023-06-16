@@ -1,12 +1,7 @@
-import Image from 'next/image';
-import Head from 'next/head';
+import HomePage from "@/pages/HomePage";
 
 export default function Home() {
   return (
-    <>
-      <div>
-          yeyoye
-      </div>
-    </>
+    <HomePage />
   )
 }
